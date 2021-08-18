@@ -7,6 +7,7 @@
 	$contato = $_POST['contato'];
 	$horario = $_POST['horario'];
 	$aceite = $_POST['aceite'];
+	
         $assunto = "Mensagem recebida do site";
 
         $body = '
