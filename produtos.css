@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+html{
+	font-family: arial;
+}
+
+nav ul {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.produtos {
+	width: 950px;
+	margin: 60px auto;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width:31%;
+	vertical-align: top;
+	margin: 0 1%;
+	padding:  30px 20px;
+	box-sizing: border-box;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	transition: 0.1s all;
+}
+
+.produtos li:hover{
+	/*border: 3px solid #550022;*/
+	/*border-radius: 10px;*/
+	transform: rotate(2deg) scale(1.08);
+}
+
+.produtos li:active{
+	border: 4px solid #0000ff;
+	border-radius: 10px;
+}
+
+.produtos h2 {
+	font-family: 'Pirata One', cursive;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.produtos li:hover h2 {
+	font-size: 42px;
+}
+
+.produtoDescricao {
+	font-size: 22px;
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.produtoPreco {
+	font-size: 26px;
+	font-weight: bold;
+	margin: 10px 0 0;
+}
+
+footer {
+	text-align: center;
+	background: url(./produtos/bg.jpg);
+	padding: 50px 0;
+}
+
+.copyright {
+	color: #ffffff;
+	font-size: small;
+	margin: 20px 0 20px 0;
+}

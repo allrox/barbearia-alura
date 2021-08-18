@@ -1,0 +1,30 @@
+.copyright {
+	color: #ffffff;
+	font-size: small;
+	margin: 20px 0 20px 0;
+}
+
+.footer {
+	background: #222222;
+	width: 70%
+	margin: auto;
+	padding: 20px 15% 20px 15%;
+	display: block;
+}
+
+.footer p {
+	color: #BFB8AA;
+	font-size: small;
+	line-height: 100%;
+	margin: 0 0 0 0;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	background: url("./img/bg.jpg");
+	padding: 25px 0;
+	margin: 0 0 0 0;
+	border-top: solid #ffffff 1px;
+	clear: both;
+}

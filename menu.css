@@ -1,0 +1,39 @@
+header {
+	background: url("./img/bg.jpg");
+	padding: 20px 0 0 0;
+}
+
+.menu {
+	position: relative;
+	width: 950px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	right: 30px;
+	top: 130px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 25px;
+}
+
+nav li a {
+	font-family: 'Pirata One', cursive;
+	text-transform: none;
+	color: #ffffff;
+	font-size: 50px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	text-decoration: none;
+	color: #F2B56B;
+}
+
+nav li a:active {
+	text-decoration: none;
+	color: #F2B56B;	
+}
